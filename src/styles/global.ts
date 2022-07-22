@@ -30,5 +30,3 @@ export const GlobalStyle = createGlobalStyle`
     }
 
 `
-
-export const primary = "#1695A3"
