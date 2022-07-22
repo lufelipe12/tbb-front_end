@@ -1,4 +1,4 @@
-import { Card } from "./styles"
+import { Card, TypeDiv } from "./styles"
 
 interface ProductCardProps {
   img: string
@@ -13,9 +13,9 @@ const ProductCard = (product: ProductCardProps) => {
       <img src={product.img} alt="product" />
       <span>{product.use1}</span>
       <span>{product.use2}</span>
-      <div className={product.type}>
+      <TypeDiv type={product.type}>
         <h3>{product.type}</h3>
-      </div>
+      </TypeDiv>
     </Card>
   )
 }
