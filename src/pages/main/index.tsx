@@ -1,4 +1,5 @@
 import Header from "../../components/header"
+import ProductsContainer from "../../components/products"
 import { BannerImg, TextSection, AdvantagesImg, StyledH2 } from "./styles"
 
 const MainPage = () => {
@@ -39,6 +40,7 @@ const MainPage = () => {
         </p>
       </TextSection>
       <StyledH2>our products</StyledH2>
+      <ProductsContainer />
     </>
   )
 }
