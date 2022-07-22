@@ -3,6 +3,8 @@ import styled from "styled-components"
 import BannerMobile from "../../assets/banner-intibiome-02.png"
 import BannerDesktop from "../../assets/banner-hero.png"
 import AdvantagesImage from "../../assets/icons.png"
+import BannerProductsMobile from "../../assets/banner-intibiome-products.png"
+import BannerProductsDesktop from "../../assets/products.png"
 
 export const BannerImg = styled.div`
   width: 100%;
@@ -53,4 +55,15 @@ export const StyledH2 = styled.h2`
   text-align: center;
   font-size: 31px;
   margin: 35px auto;
+`
+export const BannerProducts = styled.div`
+  width: 100%;
+  height: 470px;
+  margin: 60px auto;
+  background: url(${BannerProductsMobile}) no-repeat center;
+  background-size: cover;
+
+  @media (min-width: 768px) {
+    background: url(${BannerProductsDesktop}) no-repeat center;
+  }
 `
