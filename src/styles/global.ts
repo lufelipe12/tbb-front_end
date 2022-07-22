@@ -1,6 +1,13 @@
 import { createGlobalStyle } from "styled-components"
+import Trebuchet from "../fonts/trebuc.ttf"
 
 export const GlobalStyle = createGlobalStyle`
+
+    @font-face {
+      font-family: 'Trebuchet MS';
+      src: url(${Trebuchet}) format('truetype');
+    }
+
   * {
       margin: 0;
       padding: 0;
@@ -15,11 +22,9 @@ export const GlobalStyle = createGlobalStyle`
       --white-2: #00000014;
       --white: #FFFFFF;
     }
-    body {
-        
-    }
+
     body, input, button {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 1rem;
     }
     h1, h2, h3 , h4 , h5 , h6 {

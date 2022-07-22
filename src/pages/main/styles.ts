@@ -54,8 +54,7 @@ export const AdvantagesDiv = styled.div`
   justify-content: center;
   width: 80%;
   min-width: 320px;
-  max-width: 800px;
-  height: 150px;
+  max-width: 815px;
   max-height: 250px;
   margin: 30px auto;
 
