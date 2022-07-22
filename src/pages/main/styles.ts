@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 import BannerMobile from "../../assets/banner-intibiome-02.png"
 import BannerDesktop from "../../assets/banner-hero.png"
-import AdvantagesImage from "../../assets/icons.png"
 import BannerProductsMobile from "../../assets/banner-intibiome-products.png"
 import BannerProductsDesktop from "../../assets/products.png"
 
@@ -27,6 +26,8 @@ export const TextSection = styled.section`
   flex-direction: column;
   align-items: center;
   margin: 10px 20px;
+  max-width: 550px;
+  margin: auto;
 
   h2 {
     color: var(--blue);
@@ -48,11 +49,20 @@ export const TextSection = styled.section`
   }
 `
 
-export const AdvantagesImg = styled.div`
-  width: 100%;
-  height: 125px;
-  background: url(${AdvantagesImage}) no-repeat center;
-  background-size: cover;
+export const AdvantagesDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  min-width: 320px;
+  max-width: 800px;
+  height: 150px;
+  max-height: 250px;
+  margin: 30px auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `
 export const StyledH2 = styled.h2`
   color: var(--blue);

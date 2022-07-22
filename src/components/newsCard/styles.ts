@@ -7,10 +7,12 @@ export const Card = styled.div`
   align-items: center;
   width: 320px;
   height: 355px;
-  background-color: var(--white-2);
+  border: 3px solid var(--white-2);
+  border-radius: 15px;
 
   img {
-    height: 230px;
+    height: 220px;
+    width: 100%;
     margin-bottom: 24px;
   }
 
