@@ -16,14 +16,14 @@ const Header = () => {
             <li>Brand philosophy</li>
             <li>Product technology</li>
             <li>All products</li>
-            <li>Intibiome wellness</li>
+            {/* <li>Intibiome wellness</li>
             <li>Intibiome active</li>
             <li>Intibiome agecare</li>
             <li>Article 1</li>
             <li>Article 2</li>
             <li>Article 3</li>
             <li>Faq</li>
-            <li>Contact us</li>
+            <li>Contact us</li> */}
           </ul>
         </section>
       </StyledNav>

@@ -12,7 +12,7 @@ export const StyledHeader = styled.header`
     height: 58px;
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     flex-direction: column-reverse;
   }
 `
@@ -92,7 +92,7 @@ export const StyledNav = styled.nav`
     transform: rotate(-405deg);
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 767px) {
     .menu-button-container {
       display: flex;
     }
@@ -133,7 +133,7 @@ export const StyledNav = styled.nav`
     }
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     width: 100%;
     display: flex;
     justify-content: center;
