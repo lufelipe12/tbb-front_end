@@ -6,6 +6,11 @@ import AdvantagesImage from "../../assets/icons.png"
 import BannerProductsMobile from "../../assets/banner-intibiome-products.png"
 import BannerProductsDesktop from "../../assets/products.png"
 
+export const StyledMain = styled.main`
+  width: 100%;
+  height: 100%;
+`
+
 export const BannerImg = styled.div`
   width: 100%;
   height: 500px;
