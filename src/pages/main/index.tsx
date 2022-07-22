@@ -1,11 +1,12 @@
 import ProductsContainer from "../../components/products"
+import AdvantagesImage from "../../assets/icons.png"
 import NewsContainer from "../../components/newsContainer"
 import Button from "../../components/button"
 import {
   StyledMain,
   BannerImg,
   TextSection,
-  AdvantagesImg,
+  AdvantagesDiv,
   StyledH2,
   BannerProducts,
 } from "./styles"
@@ -29,7 +30,9 @@ const MainPage = () => {
           products you need to feel confident in your personal care.
         </p>
       </TextSection>
-      <AdvantagesImg />
+      <AdvantagesDiv>
+        <img src={AdvantagesImage} />
+      </AdvantagesDiv>
       <TextSection>
         <h2>whatever your age.</h2>
         <h2>whatever your lifestyle.</h2>
