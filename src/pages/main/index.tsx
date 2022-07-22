@@ -1,7 +1,8 @@
-import Header from "../../components/header"
 import ProductsContainer from "../../components/products"
 import NewsContainer from "../../components/newsContainer"
+import Button from "../../components/button"
 import {
+  StyledMain,
   BannerImg,
   TextSection,
   AdvantagesImg,
@@ -11,8 +12,7 @@ import {
 
 const MainPage = () => {
   return (
-    <>
-      <Header />
+    <StyledMain>
       <BannerImg />
       <TextSection>
         <h2>we’re here to help</h2>
@@ -50,7 +50,8 @@ const MainPage = () => {
       <BannerProducts />
       <StyledH2>keep up to date with our discoveries</StyledH2>
       <NewsContainer />
-    </>
+      <Button>see more</Button>
+    </StyledMain>
   )
 }
 
