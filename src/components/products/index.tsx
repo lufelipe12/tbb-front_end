@@ -2,6 +2,7 @@ import ProductCard from "../productCard"
 import ProductBlue from "../../assets/Blue-Pack.png"
 import ProductGreen from "../../assets/Green-Pack.png"
 import ProductPink from "../../assets/Pink-Pack.png"
+import { ProductContainer } from "./styles"
 
 const ProductsContainer = () => {
   const products = [
@@ -26,11 +27,11 @@ const ProductsContainer = () => {
   ]
 
   return (
-    <div>
+    <ProductContainer>
       {products.map((product, index) => (
         <ProductCard {...product} key={index} />
       ))}
-    </div>
+    </ProductContainer>
   )
 }
 
