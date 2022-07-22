@@ -27,7 +27,6 @@ export const TextSection = styled.section`
   flex-direction: column;
   align-items: center;
   margin: 10px 20px;
-  min-width: 320px;
 
   h2 {
     color: var(--blue);
