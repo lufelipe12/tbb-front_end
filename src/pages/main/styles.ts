@@ -14,7 +14,7 @@ export const BannerImg = styled.div`
   width: 100%;
   height: 500px;
   background: url(${BannerMobile}) no-repeat center;
-  background-size: cover;
+  background-size: 100%;
 
   @media (min-width: 768px) {
     background: url(${BannerDesktop}) no-repeat center;
@@ -26,6 +26,7 @@ export const TextSection = styled.section`
   flex-direction: column;
   align-items: center;
   margin: 10px 20px;
+  width: 90%;
   max-width: 550px;
   margin: auto;
 
