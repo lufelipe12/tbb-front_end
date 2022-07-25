@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const StyledHeader = styled.header`
   display: flex;
+  position: relative;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -105,6 +106,7 @@ export const StyledNav = styled.nav`
     .menu-button-container {
       display: flex;
     }
+
     .menu {
       position: absolute;
       top: 0;
@@ -115,19 +117,23 @@ export const StyledNav = styled.nav`
       justify-content: center;
       align-items: center;
     }
+
     #menu-toggle ~ .menu li {
       height: 0;
       margin: 0;
       padding: 0;
       border: 0;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      align-items: center;
     }
+
     #menu-toggle:checked ~ .menu li {
       height: 2.5em;
       padding: 35px;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
       border: none;
     }
+
     .menu > li {
       display: flex;
       justify-content: flex-start;
@@ -137,6 +143,7 @@ export const StyledNav = styled.nav`
       color: white;
       background-color: var(--blue);
     }
+
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
@@ -159,7 +166,7 @@ export const StyledNav = styled.nav`
       margin: 0;
       padding: 0;
       width: 60%;
-      height: 42px;
+      height: 50px;
       justify-content: space-around;
     }
 
@@ -178,12 +185,16 @@ export const StyledNav = styled.nav`
       background-color: var(--blue);
       display: flex;
       align-items: center;
-      height: 42px;
+      height: 50px;
     }
 
     .dropdown {
-      position: relative;
+      position: absolute;
       display: inline-block;
+      width: 100%;
+      left: 0;
+      top: 100%;
+      z-index: 1;
     }
 
     .dropdown-content {
@@ -192,10 +203,9 @@ export const StyledNav = styled.nav`
       background-color: #9d8e8e;
       min-width: 160px;
       height: 48px;
-      margin-top: 4px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       z-index: 1;
-      width: 100vw;
+      width: 100%;
     }
 
     .dropdown-content a {
@@ -205,8 +215,9 @@ export const StyledNav = styled.nav`
       display: block;
     }
 
-    .dropdown:hover .dropdown-content {
+    li:hover .dropdown-content {
       display: flex;
+      justify-content: flex-start;
     }
 
     .top-nav {
