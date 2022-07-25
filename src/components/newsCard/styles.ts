@@ -7,7 +7,7 @@ export const Card = styled.div`
   align-items: center;
   width: 320px;
   height: 355px;
-  border: 3px solid var(--white-2);
+  box-shadow: 0px 4px 16px var(--white-2);
   border-radius: 15px;
 
   img {
@@ -21,5 +21,6 @@ export const Card = styled.div`
     line-height: 28px;
     text-align: left;
     width: 290px;
+    padding-left: 15px;
   }
 `
