@@ -1,6 +1,6 @@
 # Projeto front-end desenvolvido para a empresa The Brooklyn Brothers
 
-Após fazer o clone do projeto, instale as dependências do projeto digitando em seu terminal:
+Após fazer o clone do projeto, instale suas dependências digitando em seu terminal:
 
 ```
 yarn ou npm install
