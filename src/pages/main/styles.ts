@@ -35,10 +35,7 @@ export const TextSection = styled.section`
     text-align: center;
     font-size: 31px;
     margin: 35px auto;
-  }
-
-  h2 + h2 {
-    margin-top: -25px;
+    line-height: 50px;
   }
 
   p {

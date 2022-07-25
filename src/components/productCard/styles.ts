@@ -6,7 +6,7 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   width: 320px;
-  border: 3px solid var(--white-2);
+  box-shadow: 0px 4px 16px var(--white-2);
   border-radius: 10px;
 
   img {

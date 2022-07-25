@@ -7,6 +7,7 @@ export const StyledHeader = styled.header`
   align-items: center;
   width: 100%;
   height: 100px;
+  box-shadow: 0px 4px 16px var(--white-2);
 
   img {
     width: 143px;

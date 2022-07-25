@@ -34,9 +34,9 @@ const MainPage = () => {
         <img src={AdvantagesImage} />
       </AdvantagesDiv>
       <TextSection>
-        <h2>whatever your age.</h2>
-        <h2>whatever your lifestyle.</h2>
-        <h2>whatever your interests.</h2>
+        <h2>
+          whatever your age. whatever your lifestyle. whatever your interests.
+        </h2>
         <p>
           Co-created with gynaecologists, our revolutionary products have been
           expertly developed to support your intimate microbiome and pH balance,
