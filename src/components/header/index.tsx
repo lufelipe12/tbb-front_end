@@ -10,7 +10,7 @@ const Header = () => {
       <StyledNav>
         <section className="top-nav">
           <input id="menu-toggle" type="checkbox" />
-          <label className="menu-button-container" for="menu-toggle">
+          <label className="menu-button-container" htmlFor="menu-toggle">
             <div className="menu-button"></div>
           </label>
           <ul className="menu">
@@ -50,11 +50,11 @@ const Header = () => {
           </ul>
           <ul className="menu-desktop">
             <li>
+              <button className="dropbtn">
+                about us
+                <IoIosArrowDown className="arrow" />{" "}
+              </button>
               <div className="dropdown">
-                <button className="dropbtn">
-                  about us
-                  <IoIosArrowDown className="arrow" />{" "}
-                </button>
                 <div className="dropdown-content">
                   <a href="#">brand philosophy</a>
                   <a href="#">product technology</a>
@@ -62,11 +62,11 @@ const Header = () => {
               </div>
             </li>
             <li>
+              <button className="dropbtn">
+                our products
+                <IoIosArrowDown className="arrow" />{" "}
+              </button>
               <div className="dropdown">
-                <button className="dropbtn">
-                  our products
-                  <IoIosArrowDown className="arrow" />{" "}
-                </button>
                 <div className="dropdown-content">
                   <a href="#">all products</a>
                   <a href="#">intibiome wellness</a>
@@ -76,10 +76,10 @@ const Header = () => {
               </div>
             </li>
             <li>
+              <button className="dropbtn">
+                intimate health <IoIosArrowDown className="arrow" />{" "}
+              </button>
               <div className="dropdown">
-                <button className="dropbtn">
-                  intimate health <IoIosArrowDown className="arrow" />{" "}
-                </button>
                 <div className="dropdown-content">
                   <a href="#">article 1</a>
                   <a href="#">article 2</a>
