@@ -17,4 +17,4 @@ No terminal, se tudo correr bem, estará mostrando a porta em que o aplicativo f
 
 ## Ferramentas utilizadas no projeto:
 
-### Vite, react, typescript, react-icons e styled-components.
+### Vite, React, typescript, react-icons e styled-components.
