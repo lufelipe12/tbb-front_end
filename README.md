@@ -18,3 +18,8 @@ No terminal, se tudo correr bem, estará mostrando a porta em que o aplicativo f
 ## Ferramentas utilizadas no projeto:
 
 ### Vite, React, typescript, react-icons e styled-components.
+
+
+## Link do deploy:
+
+https://tbb-front-end-lufelipe12.vercel.app/
