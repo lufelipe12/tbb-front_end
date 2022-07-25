@@ -1,4 +1,4 @@
-# Projeto front-end desenvolvido para a empresa The Brooklyn Brothers
+# Projeto front-end desenvolvido para a empresa The Brooklyn Brothers, em um desafio front-end.
 
 Após fazer o clone do projeto, instale suas dependências digitando em seu terminal:
 
