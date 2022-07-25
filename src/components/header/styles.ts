@@ -217,7 +217,7 @@ export const StyledNav = styled.nav`
 
     li:hover .dropdown-content {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-evenly;
     }
 
     .top-nav {
